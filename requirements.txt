@@ -43,3 +43,4 @@ pyotp>=2.6.0
 Flask-Limiter
 Flask-Mail
 faraday-agent-parameters-types>=1.0.3
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
