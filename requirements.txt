@@ -1,5 +1,5 @@
 PyJWT>=2.3.0
-werkzeug>=1.0.0,<2.1.0
+werkzeug>=3.0.1,<2.1.0
 autobahn>=17.10.1
 alembic>=0.9.9
 bcrypt>=3.1.4
@@ -24,7 +24,7 @@ pyasn1
 service_identity>=17.0.0
 SQLAlchemy>=1.2.0,<1.4.0
 tqdm>=4.15.0
-twisted>=18.9.0
+twisted>=23.10.0rc1
 webargs>=7.0.0
 marshmallow-sqlalchemy>=0.26.1,<0.28.1
 filteralchemy-fork
