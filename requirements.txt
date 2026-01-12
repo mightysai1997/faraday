@@ -1,5 +1,5 @@
 PyJWT>=2.3.0
-werkzeug>=1.0.0,<2.1.0
+werkzeug>=3.1.5
 autobahn>=17.10.1
 alembic>=0.9.9
 bcrypt>=3.1.4
@@ -43,3 +43,4 @@ pyotp>=2.6.0
 Flask-Limiter
 Flask-Mail
 faraday-agent-parameters-types>=1.0.3
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
